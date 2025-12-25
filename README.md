@@ -1,3 +1,8 @@
+### 联系方式（微信扫一扫）:
+<img width="444" height="560" alt="2fc79856-4bde-42f0-a5ea-83281867fbbe" src="https://github.com/user-attachments/assets/3eaeeaef-8fda-4c05-9f80-9e5361650c4a" />
+
+### 计算机毕设定制（直接点击链接）：https://www.yuque.com/techninja/code/xrpvpxbu3y8fa3ey?singleDoc#
+
 #### 一、项目演示地址（点击链接就可以看到）：
 
 https://www.bilibili.com/video/BV1Vry5Y7EFs/?spm_id_from=333.999.0.0&vd_source=d6c0e92e345f995e8849e6e3baa03aeb
@@ -8,7 +13,7 @@ https://www.bilibili.com/video/BV1Vry5Y7EFs/?spm_id_from=333.999.0.0&vd_source=d
 
 **博主介绍：✌全网粉丝20W+,csdn特邀作者、Java领域优质创作者、csdn/掘金/哔哩哔哩/知乎/道客/小红书等平台优质作者，计算机毕设实战导师，目前专注于大学生项目实战开发,讲解,毕业答疑辅导✌接计算机毕业设计程序开发、论文代写、代码讲解、出售成品源码等毕设服务，专业靠谱~**
 
-#### 作者QQ：3289948684 微信：bysj5280 (支持修改、 部署调试、 代做接毕业设计和课程设计)
+#### 作者QQ：3289948684 微信：bysj7626 (支持修改、 部署调试、 代做接毕业设计和课程设计)
 
 #### 接网站建设、小程序、H5、APP、各种系统、样式修改等
 
