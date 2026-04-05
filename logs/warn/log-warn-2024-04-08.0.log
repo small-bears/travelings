@@ -1,0 +1,8 @@
+2024-04-08 15:02:22.701 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_rotations' doesn't exist
+### The error may exist in com/project/travel/mapper/SysRotationsMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM sys_rotations
+### Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_rotations' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'travel.sys_rotations' doesn't exist]

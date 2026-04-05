@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shanzhu.tourism.mapper.UserMapper">
+    <select id="getUserPage" resultType="user">
+        select
+            u.*
+        from user u
+        <where>
+            1=1
+            <if test="ew.userName != null and ew.userName != ''">
+                and u.user_name like concat('%',#{ew.userName},'%')
+            </if>
+            <if test="ew.tel != null and ew.tel != ''">
+                and u.tel like concat('%',#{ew.tel},'%')
+            </if>
+            <if test="ew.status != null">
+                and u.status = #{ew.status}
+            </if>
+            <if test="ew.userType != null">
+                and u.user_type = #{ew.userType}
+            </if>
+            <if test="ew.sex != null">
+                and u.sex = #{ew.sex}
+            </if>
+        </where>
+    </select>
+</mapper>

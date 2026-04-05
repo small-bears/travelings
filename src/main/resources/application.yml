@@ -1,0 +1,49 @@
+server:
+  port: 8080
+  servlet:
+    # 应用的访问路径
+    context-path: /
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    # 连接数满后的排队数，默认为100
+    accept-count: 1000
+    threads:
+      # tomcat最大线程数，默认为200
+      max: 800
+      # Tomcat启动初始化的线程数，默认值10
+      min-spare: 100
+spring:
+  application:
+    name: 程序入口
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
+  profiles:
+    active: dev
+  #  修改上传文件大小限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+# myBatis-plus配置
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+      table-underline: true
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+  # 搜索指定包别名
+  typeAliasesPackage: com.shanzhu.**.domain
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+  # 加载全局的配置文件
+  configLocation: classpath:mybatis/mybatis-config.xml
+#日志配置
+logging:
+  file:
+    path: ./logs
+  config: classpath:logback-spring.xml

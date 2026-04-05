@@ -1,0 +1,31 @@
+2024-08-10 16:53:28.641 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Starting TravelApplication using Java 1.8.0_332 on bianJWdeMacBook-Pro.local with PID 84813 (/Users/jiawang/saleProject/旅游推荐管理系统v2/tourism-backend/target/classes started by jiawang in /Users/jiawang/saleProject/旅游推荐管理系统v2/tourism-backend)
+2024-08-10 16:53:28.645 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - The following profiles are active: dev
+2024-08-10 16:53:28.680 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-10 16:53:28.680 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-10 16:53:29.044 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-10 16:53:29.045 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-10 16:53:29.060 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-08-10 16:53:29.379 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-10 16:53:29.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-10 16:53:29.387 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-10 16:53:29.387 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-08-10 16:53:29.420 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-10 16:53:29.420 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 740 ms
+2024-08-10 16:53:29.679 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-08-10 16:53:30.180 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-10 16:53:30.553 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-10 16:53:30.695 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-10 16:53:30.723 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-10 16:53:30.740 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-10 16:53:30.747 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Started TravelApplication in 2.429 seconds (JVM running for 2.752)
+2024-08-10 16:53:33.321 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-10 16:53:33.321 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-10 16:53:33.322 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-10 18:19:48.228 [http-nio-8080-exec-68] INFO  handle.com.shanzhu.tourism.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:20:18.411 [http-nio-8080-exec-60] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:20:38.218 [http-nio-8080-exec-62] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:31:32.540 [http-nio-8080-exec-13] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:32:12.687 [http-nio-8080-exec-61] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:32:41.217 [http-nio-8080-exec-60] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:32:43.388 [http-nio-8080-exec-69] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-08-10 21:43:24.624 [http-nio-8080-exec-30] INFO  com.project.travel.handle.MyMetaObjectHandler - 公共字段自动填充[update]...

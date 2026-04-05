@@ -1,0 +1,52 @@
+.attractionsInfo {
+    width: 100%;
+    height: 100%;
+    font-family: '黑体';
+}
+.attractionsInfo1 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.attractionsInfo2 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.attractionsInfo3 {
+    width: 60%;
+    height: 100%;
+}
+.attractionsInfo4 {
+    width: 40%;
+    height: 100%;
+}
+.attractionsInfo5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.attractionsInfo6 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 330px;
+    overflow: hidden;
+}
+.attractionsInfo7 {
+    display: flex;
+}
+.attractionsInfo8 {
+    width: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.attractionsInfo9 {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+2024-04-07 14:18:16.163 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_attractions' doesn't exist
+### The error may exist in com/project/travel/mapper/SysAttractionsMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM sys_attractions
+### Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_attractions' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'travel.sys_attractions' doesn't exist]
+2024-04-07 16:32:02.554 [http-nio-8080-exec-15] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_hotel' doesn't exist
+### The error may exist in com/project/travel/mapper/SysHotelMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM sys_hotel
+### Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_hotel' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'travel.sys_hotel' doesn't exist]
+2024-04-07 21:52:02.950 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_forum' doesn't exist
+### The error may exist in com/project/travel/mapper/SysForumMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM sys_forum
+### Cause: java.sql.SQLSyntaxErrorException: Table 'travel.sys_forum' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'travel.sys_forum' doesn't exist]

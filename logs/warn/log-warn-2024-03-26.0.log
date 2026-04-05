@@ -1,0 +1,9 @@
+2024-03-26 16:17:47.630 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'company' in 'field list'
+### The error may exist in com/project/travel/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,company,address,id_number,agree,best,comment,num_people,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time  FROM user     WHERE (login_account = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'company' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'company' in 'field list']
+2024-03-26 16:23:23.842 [http-nio-8080-exec-17] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.builder.BuilderException: Error evaluating expression 'ew.best != null and ew.best != '''. Cause: org.apache.ibatis.ognl.NoSuchPropertyException: domain.com.shanzhu.tourism.User.best]
